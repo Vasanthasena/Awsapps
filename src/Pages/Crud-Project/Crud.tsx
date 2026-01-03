@@ -1,4 +1,5 @@
 
+
 import { useState } from "react";
 
 function Crud() {
@@ -69,7 +70,7 @@ function Crud() {
     } catch (err) {
       setMessage({
         type: "error",
-        text: `Failed to save event: ${err.message}`,
+        text: `Failed to save event`,
       });
     } finally {
       setIsSaving(false);

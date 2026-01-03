@@ -1,13 +1,14 @@
 
 import './App.css'
-import Crud from './Pages/Crud'
+import HomePage from './Pages/Crud-Project/HomePage'
+import Routers from './Routes/MyRoutes'
 
 function App() {
 
 
   return (
     <>
-     <Crud/>
+     <Routers/>
     </>
   )
 }
